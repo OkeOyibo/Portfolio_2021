@@ -14,16 +14,44 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="skills">My Skills</NavLinks>
+                            <NavLinks
+                                to="skills"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >My Skills</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="education">Education</NavLinks>
+                            <NavLinks
+                                to="education"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >Education</NavLinks>
                         </NavItem> 
                         <NavItem>
-                            <NavLinks to="cv">About Me</NavLinks>
+                            <NavLinks
+                                to="cv"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >About Me</NavLinks>
                         </NavItem>              
                         <NavItem>
-                            <NavLinks to="work">Work</NavLinks>
+                            <NavLinks
+                                to="work"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >Work</NavLinks>
                         </NavItem>                                                                   
                     </NavMenu>
                     <NavBtn>
